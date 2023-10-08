@@ -13,6 +13,10 @@ import org.springframework.web.bind.annotation.RequestParam;
 import com.davi.shop.dto.controller.location.StateDTO;
 
 import jakarta.validation.constraints.NotBlank;
+import org.springframework.validation.annotation.Validated;
+import org.springframework.web.bind.annotation.PostMapping;
+import org.springframework.web.bind.annotation.RequestBody;
+import org.springframework.web.bind.annotation.RequestMapping;
 import jakarta.validation.constraints.Size;
 
 @Validated
